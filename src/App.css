@@ -7,9 +7,20 @@ body {
 }
 
 header {
-  background-color: transparent; /* Bright yellow */
+  /* background-color: transparent; 
   padding: 2px 0;
-  width: 100%;  
+  width: 100%;   */
+  /* Rectangle 26 */
+
+position: absolute;
+width: 1440px;
+height: 157px;
+left: 0px;
+top: 10px;
+
+background: linear-gradient(transparent);
+background-blend-mode: soft-light;
+
 }
 
 header .container {
@@ -20,7 +31,16 @@ header .container {
   margin: 0 auto;
   padding: 0 20px;
 }
+header .tab{
 
+position: absolute;
+width: 6px;
+right: 0px;
+height:5px;
+left: 5px;
+top:1px;
+
+}
 header h1 {
   font-size: 24px;
   font-weight: bold;
@@ -40,20 +60,20 @@ header ul li {
   color: #333;
 }
 
-header.bg-image{
+/* header.bg-image{
   /* image 10 (1) (3) 1 */
 
-position: absolute;
+/* position: absolute;
 size: cover;
 size-adjust: 100%;
 width: 1440px;
 height: 860px;
 left: 0px;
-top: 0px;
+top: 0px; */
 
 /* background: url("./assets/yellowBG.png"); */
 
-}
+/* } */ */
 main {
   max-width: 1200px;
   margin: 20px auto;
