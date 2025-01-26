@@ -5,18 +5,26 @@ import "./App.css";
 
 import laptopImage from "./assets/girl_laptop.png"; 
 import quizImage from "./assets/boy_laptop.png";
-
+import tab from "./assets/Apppreview.png";
+import bgImage from "./assets/yellowBGG.png";
+// import logoImage from "./assets/LOGO_APP 1.png";
 const App = () => {
   return (
     <div>
       <Header />
+      {/* <img src={logoImage} alt="logo" className="logo" /> */}
+      <img src={bgImage} alt="background" className="bg-image" />
+      
       <main>
-        {/* Intro Section */}
+        {/* Intro Section */} 
+        
         <section className="text-center">
+       
           <h2>Augmented Reality for Teaching Anatomy Education</h2>
           <p>
-            ARnatomy uses augmented reality to make anatomy education interactive and engaging for grade-level lessons.
+          ARnatomy uses augmented reality to make anatomy education interactive and engaging for grade-level learners, bringing the human body to life in a whole new way.
           </p>
+          <img src={tab} alt="tab" className="tab" />
           <button>Download</button>
         </section>
 
