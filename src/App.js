@@ -25,7 +25,8 @@ const App = () => {
           <p>
           ARnatomy uses augmented reality to make anatomy education interactive and engaging for grade-level learners, bringing the human body to life in a whole new way.
           </p>
-          <img src={tab} alt="tab" className="tab" />
+
+          <img src={tab} alt="tab" className="tab" />           
           <button>Download</button>
           </section>
 
@@ -35,7 +36,7 @@ const App = () => {
             image={laptopImage}
             title="Interactive Lessons"
             description="Explore anatomy with interactive lessons! Learn about the reproductive systems, human organs, and more."
-          />
+          />  
           <SectionCard
             image={quizImage}
             title="Quizzes & Personalized Learning"

@@ -31,20 +31,21 @@ header .container {
   margin: 0 auto;
   padding: 0 20px;
 }
-header .tab{
-
-position: absolute;
-width: 6px;
-right: 0px;
-height:5px;
-left: 5px;
-top:1px;
-
+.tab {
+  position: absolute;
+  right: 6%;
+  top: 60%;
+  transform: translateY(-50%);
+  width: 450px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+  border: 4px solid black; /* Add black border */
 }
-header h1 {
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
+.logo {
+  width: 150px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Adjust the margin as needed */
+  display: inline-block; /* Ensure it aligns properly with other elements */
 }
 
 header ul {
@@ -58,22 +59,16 @@ header ul li {
   margin-left: 20px;
   cursor: pointer;
   color: #333;
+  margin-top: 0% ;
 }
-
-/* header.bg-image{
-  /* image 10 (1) (3) 1 */
-
-/* position: absolute;
-size: cover;
-size-adjust: 100%;
-width: 1440px;
-height: 860px;
-left: 0px;
-top: 0px; */
-
-/* background: url("./assets/yellowBG.png"); */
-
-/* } */ */
+.bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  z-index: -1; /* Ensure it is behind other elements */
+}
 main {
   max-width: 1200px;
   margin: 20px auto;
@@ -98,10 +93,11 @@ section.text-center h2 {
 
 position: absolute;
 width: 539px;
-height: 228px;
+height: 100px;
 left: 112px;
 text-align: left;
-top: 280px;
+top: 230px;
+
 
 font-family: 'Poppins';
 font-style: normal;
@@ -150,8 +146,8 @@ section.text-center button {
 position: absolute;
 width: 213px;
 height: 63px;
-left: calc(50% - 100px/2 - 501.5px);
-top: 589px;
+left: 110px;
+top: 595px;
 
 background: #FF9900;
 border-radius: 10px;
@@ -163,8 +159,8 @@ border-color: transparent;
 position: absolute;
 width: 123px;
 height: 37px;
-left: calc(50% - 123px/2 - 501.5px);
-top: 603px;
+left: 110px;
+top: 609px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -183,9 +179,15 @@ color: #FDFDFD;
   background: white;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 10px;
   gap: 20px;
+  margin-bottom: 20px;
+  top: 0;
+  transform: translateY(+550%);
+  width: 500px; 
+  height: 120px;
 }
+
 
 .card img {
   width: 80px;
@@ -207,8 +209,18 @@ color: #FDFDFD;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
+  padding: 20px;
+  position: relative;
+  
 }
- 
-/* LOGO_APP 1 */
+.grid .section-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+
+
 
 
