@@ -27,7 +27,7 @@ const App = () => {
           </p>
 
           <img src={tab} alt="tab" className="tab" />           
-          <button>Download</button>
+          <button>DOWNLOAD</button>
           </section>
 
         {/* Cards Section */}
