@@ -32,10 +32,11 @@ header .container {
   padding: 0 20px;
 }
 .tab {
-  position: absolute;
+  /* position: absolute;
   right: 6%;
   top: 60%;
-  transform: translateY(-50%);
+  transform: translateY(-50%); */
+  margin-top: 5vh;
   width: 450px; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
   border-radius: 10px;
@@ -68,6 +69,7 @@ header ul li {
   width: 100%;
   height: auto; /* Maintain aspect ratio */
   z-index: -1; /* Ensure it is behind other elements */
+  object-fit: cover;
 }
 main {
   max-width: 1200px;
@@ -88,7 +90,7 @@ section.text-center {
 
 section.text-center h2 {
   font-size: 28px;
-  font-weight: bold;
+  font-weight: bolder;
   /* Augmented Reality for Teaching Anatomy Education */
 
 position: absolute;
@@ -101,7 +103,7 @@ top: 230px;
 
 font-family: 'Poppins';
 font-style: normal;
-font-weight: 700;
+font-weight: 800;
 font-size: 50px;
 line-height: 75px;
 
@@ -119,12 +121,12 @@ width: 581px;
 left: 112px;
 height: 40px;
 /* left: 112px; */
-top: 518px;
+top: 500px;
 text-align: left;
 font-family: 'Poppins';
-font-style: normal;
+font-style: semi-bold;
 font-weight: 500;
-font-size: 13px;
+font-size: 15px;
 line-height: 30px;
 
 color: #000000;
@@ -143,30 +145,33 @@ top: 147px;
 section.text-center button {
 /* Rectangle 23 */
 
-position: absolute;
+/* position: absolute;
 width: 213px;
 height: 63px;
-left: 110px;
-top: 595px;
+left: 80px;
+top: 595px; */
 
 background: #FF9900;
 border-radius: 15px;
 border-color: transparent;
+padding: 20px;
 
 
 /* Download */
 
 position: absolute;
-width: 123px;
+width: 220px;
 height: 37px;
 left: 110px;
 top: 609px;
 
+
 font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
+font-style: bold;
+font-weight: 900;
 font-size: 18px;
-line-height: 35px;
+line-height: 5px;
+
 
 color: #FDFDFD;
 
@@ -179,11 +184,12 @@ color: #FDFDFD;
   background: white;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 10px;
+  padding: 20px;
   gap: 20px;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  /* margin: 20px; */
   top: 0;
-  transform: translateY(+550%);
+  /* transform: translateY(+550%); */
   width: 500px; 
   height: 120px;
 }
@@ -201,16 +207,16 @@ color: #FDFDFD;
 }
 
 .card p {
-  margin-top: 5px;
+  margin-top: 5px;  
   color: #666;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  padding: 20px;
-  position: relative;
+  /* gap: 20px; */
+  /* padding: 20px; */
+  /* position: relative; */
   
 }
 .grid .section-card img {
@@ -219,8 +225,50 @@ color: #FDFDFD;
   border-radius: 10px;
 }
 
+.tab-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 20px; */
+  margin-top: 20px;
+  /* padding: 20px;  */
+}
 
+/* .tab {
+  align-self: center;
+  
+} */
 
+.container-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
+.features {
+  margin-top: 10vh;
+}
 
+.footer {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+}
 
+.developer {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  gap: 20px;
+  margin-top: 20px;
+  /* margin: 20px; */
+  top: 0;
+  /* transform: translateY(+550%); */
+  width: 500px; 
+  height: 120px;
+}
