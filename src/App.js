@@ -7,6 +7,8 @@ import laptopImage from "./assets/girl_laptop.png";
 import quizImage from "./assets/boy_laptop.png";
 import tab from "./assets/HomeScreen.png";
 import bgImage from "./assets/cloudlong.svg";
+import gracia from "./assets/gracia1.png";
+import mj from "./assets/mj1.png";
 // import logoImage from "./assets/LOGO_APP 1.png";
 
 const  handleDownload = (req, res) => {
@@ -87,7 +89,7 @@ const App = () => {
           {/* Cards Section */}
         <section className="grid">
             <div className="card">
-              <img src="https://avatars.githubusercontent.com/u/54646777?v=4" alt="developer" />
+              <img src={gracia} alt="developer" />
               <div className="flex-col">
 
                 <h3>Ma. Gracia Jra Villanueva</h3>
@@ -95,7 +97,7 @@ const App = () => {
               </div>
             </div>
             <div className="card">
-              <img src="https://avatars.githubusercontent.com/u/54646777?v=4" alt="developer" />
+              <img src={mj} alt="developer" />
               <div className="flex-col">
               <h3>Mj Estepanie Palo</h3>
               <p>Developer</p>
